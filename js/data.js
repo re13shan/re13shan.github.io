@@ -253,8 +253,63 @@ window.portfolioData = {
             "https://github.com/re13shan/Movie_Review_Server"
         }
       ],
+      {
+      title: "Automatic Robotic Arm Car",
+      category: "Robotics",
+      date: "October 2023",
 
+      summary:
+        "An autonomous robotic arm car that records and replays movement sequences for pick-and-place tasks.",
+
+      highlights: [
+        "Created memory-based record-and-replay automation.",
+        "Implemented task sequences for object picking and placement.",
+        "Developed real-time microcontroller control logic."
+      ],
+
+      technologies: [
+        "Arduino",
+        "Microcontrollers",
+        "Automation",
+        "Robotics"
+      ],
+
+      githubUrl: "",
+      githubUrls: [],
+      screenshotsUrl: "https://drive.google.com/drive/folders/1iaqm7ifIZLD37mhkNc690lG9ndr1KsC5?usp=drive_link",
+      videoUrl: "",
+      releaseUrl: "",
+      demoUrl: ""
+    },
       screenshotsUrl: "https://drive.google.com/drive/folders/1K-upr2px6m_t-AAEwMzlZlTrdCcb7u2V?usp=sharing",
+      videoUrl: "",
+      releaseUrl: "",
+      demoUrl: ""
+    },
+{
+      title: "Bluetooth Controlled Robotic Arm Car",
+      category: "Robotics",
+      date: "March 2023",
+
+      summary:
+        "A smartphone-controlled robotic arm car supporting real-time movement and grip control over Bluetooth.",
+
+      highlights: [
+        "Integrated Arduino, motor drivers, and Bluetooth control.",
+        "Implemented directional movement and grip actuation.",
+        "Connected a mobile interface for real-time operation."
+      ],
+
+      technologies: [
+        "Arduino",
+        "Bluetooth",
+        "Node.js",
+        "Embedded Systems"
+      ],
+
+      githubUrl: "",
+      githubUrls: [],
+      screenshotsUrl: "",
       videoUrl: "",
       releaseUrl: "",
       demoUrl: ""
@@ -337,64 +392,6 @@ window.portfolioData = {
         "C#",
         "3D",
         "Physics"
-      ],
-
-      githubUrl: "",
-      githubUrls: [],
-      screenshotsUrl: "",
-      videoUrl: "",
-      releaseUrl: "",
-      demoUrl: ""
-    },
-
-    {
-      title: "Bluetooth Controlled Robotic Arm Car",
-      category: "Robotics",
-      date: "March 2023",
-
-      summary:
-        "A smartphone-controlled robotic arm car supporting real-time movement and grip control over Bluetooth.",
-
-      highlights: [
-        "Integrated Arduino, motor drivers, and Bluetooth control.",
-        "Implemented directional movement and grip actuation.",
-        "Connected a mobile interface for real-time operation."
-      ],
-
-      technologies: [
-        "Arduino",
-        "Bluetooth",
-        "Node.js",
-        "Embedded Systems"
-      ],
-
-      githubUrl: "",
-      githubUrls: [],
-      screenshotsUrl: "",
-      videoUrl: "",
-      releaseUrl: "",
-      demoUrl: ""
-    },
-
-    {
-      title: "Automatic Robotic Arm Car",
-      category: "Robotics",
-      date: "October 2023",
-
-      summary:
-        "An autonomous robotic arm car that records and replays movement sequences for pick-and-place tasks.",
-
-      highlights: [
-        "Created memory-based record-and-replay automation.",
-        "Implemented task sequences for object picking and placement.",
-        "Developed real-time microcontroller control logic."
-      ],
-
-      technologies: [
-        "Arduino",
-        "Microcontrollers",
-        "Automation",
-        "Robotics"
       ],
 
       githubUrl: "",
