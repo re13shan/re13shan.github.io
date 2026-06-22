@@ -219,73 +219,78 @@ window.portfolioData = {
       demoUrl: ""
     },
     {
-      title: "Movie Review and Rating Website",
-      category: "Web",
-      date: "May 2023",
+  title: "Movie Review and Rating Website",
+  category: "Web",
+  date: "May 2023",
 
-      summary:
-        "A full-stack platform with authentication, user reviews, ratings, and automatic average-rating aggregation.",
+  summary:
+    "A full-stack platform with authentication, user reviews, ratings, and automatic average-rating aggregation.",
 
-      highlights: [
-        "Implemented user authentication and review posting.",
-        "Built rating aggregation and movie detail workflows.",
-        "Connected an Angular frontend to Node.js and MongoDB services."
-      ],
+  highlights: [
+    "Implemented user authentication and review posting.",
+    "Built rating aggregation and movie detail workflows.",
+    "Connected an Angular frontend to Node.js and MongoDB services."
+  ],
 
-      technologies: [
-        "Angular",
-        "Node.js",
-        "MongoDB",
-        "CSS"
-      ],
+  technologies: [
+    "Angular",
+    "Node.js",
+    "MongoDB",
+    "CSS"
+  ],
 
-      githubUrl: "",
+  githubUrl: "",
 
-      githubUrls: [
-        {
-          label: "Frontend",
-          url:
-            "https://github.com/re13shan/Movie_Review_Angular"
-        },
-        {
-          label: "Backend",
-          url:
-            "https://github.com/re13shan/Movie_Review_Server"
-        }
-      ],
-      {
-      title: "Automatic Robotic Arm Car",
-      category: "Robotics",
-      date: "October 2023",
-
-      summary:
-        "An autonomous robotic arm car that records and replays movement sequences for pick-and-place tasks.",
-
-      highlights: [
-        "Created memory-based record-and-replay automation.",
-        "Implemented task sequences for object picking and placement.",
-        "Developed real-time microcontroller control logic."
-      ],
-
-      technologies: [
-        "Arduino",
-        "Microcontrollers",
-        "Automation",
-        "Robotics"
-      ],
-
-      githubUrl: "",
-      githubUrls: [],
-      screenshotsUrl: "https://drive.google.com/drive/folders/1iaqm7ifIZLD37mhkNc690lG9ndr1KsC5?usp=drive_link",
-      videoUrl: "",
-      releaseUrl: "",
-      demoUrl: ""
+  githubUrls: [
+    {
+      label: "Frontend",
+      url: "https://github.com/re13shan/Movie_Review_Angular"
     },
-      screenshotsUrl: "https://drive.google.com/drive/folders/1K-upr2px6m_t-AAEwMzlZlTrdCcb7u2V?usp=sharing",
-      videoUrl: "",
-      releaseUrl: "",
-      demoUrl: ""
-    },
+    {
+      label: "Backend",
+      url: "https://github.com/re13shan/Movie_Review_Server"
+    }
+  ],
+
+  screenshotsUrl:
+    "https://drive.google.com/drive/folders/1K-upr2px6m_t-AAEwMzlZlTrdCcb7u2V?usp=sharing",
+
+  videoUrl: "",
+  releaseUrl: "",
+  demoUrl: ""
+},
+
+{
+  title: "Automatic Robotic Arm Car",
+  category: "Robotics",
+  date: "October 2023",
+
+  summary:
+    "An autonomous robotic arm car that records and replays movement sequences for pick-and-place tasks.",
+
+  highlights: [
+    "Created memory-based record-and-replay automation.",
+    "Implemented task sequences for object picking and placement.",
+    "Developed real-time microcontroller control logic."
+  ],
+
+  technologies: [
+    "Arduino",
+    "Microcontrollers",
+    "Automation",
+    "Robotics"
+  ],
+
+  githubUrl: "",
+  githubUrls: [],
+
+  screenshotsUrl:
+    "https://drive.google.com/drive/folders/1iaqm7ifIZLD37mhkNc690lG9ndr1KsC5?usp=drive_link",
+
+  videoUrl: "",
+  releaseUrl: "",
+  demoUrl: ""
+},
 {
       title: "Bluetooth Controlled Robotic Arm Car",
       category: "Robotics",
