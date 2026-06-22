@@ -1,0 +1,1 @@
+Project screenshots and videos can be hosted on Google Drive. Paste public share links into js/data.js. Local files are optional.

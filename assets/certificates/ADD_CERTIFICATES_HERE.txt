@@ -1,0 +1,1 @@
+Certificate PDFs or images can be hosted on Google Drive. Paste public share links into certificateUrl fields in js/data.js.

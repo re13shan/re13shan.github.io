@@ -1,0 +1,18 @@
+<svg width="800" height="900" viewBox="0 0 800 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="40" x2="760" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B3B6F"/>
+      <stop offset="1" stop-color="#0B1020"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(620 180) rotate(134) scale(430 430)">
+      <stop stop-color="#62D9C8" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#62D9C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="900" rx="72" fill="url(#bg)"/>
+  <rect width="800" height="900" rx="72" fill="url(#glow)"/>
+  <circle cx="400" cy="360" r="155" fill="#E8F0FF" fill-opacity=".13"/>
+  <path d="M190 760C205 610 296 530 400 530C504 530 595 610 610 760" fill="#E8F0FF" fill-opacity=".13"/>
+  <text x="400" y="410" text-anchor="middle" fill="#F7FAFF" font-size="142" font-family="Arial, sans-serif" font-weight="700">AB</text>
+  <text x="400" y="830" text-anchor="middle" fill="#C8D6F5" font-size="26" font-family="Arial, sans-serif">Replace with assets/profile.jpg</text>
+</svg>

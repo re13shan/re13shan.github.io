@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+    content="Portfolio of Abdullah Al Bayozid — AI researcher, Unity developer, and Electrical & Computer Engineering graduate." />
+  <meta name="theme-color" content="#0b1020" />
+  <meta property="og:title" content="Abdullah Al Bayozid | Research & Unity Portfolio" />
+  <meta property="og:description"
+    content="Research, publications, Unity projects, experience, and academic achievements." />
+  <title>Abdullah Al Bayozid | Research & Unity Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script defer src="js/data.js"></script>
+  <script defer src="js/app.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-mark">AB</span>
+        <span>Abdullah Al Bayozid</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navLinks"
+        aria-label="Open navigation">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#achievements">Achievements</a>
+        <a class="nav-cta" href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">AI Engineer · Electrical and Computer Engineering Graduate</p>
+          <h1>Abdullah Al Bayozid</h1>
+          <p class="hero-role">Medical image analysis · Explainable and self-supervised learning · Unity development</p>
+          <p class="hero-lead">I work on reliable AI methods for medical imaging and build interactive systems in Unity.
+            I am currently seeking funded PhD opportunities in computer vision, medical imaging, and trustworthy machine
+            learning.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#research">View research</a>
+            <a class="button secondary" href="assets/Abdullah_Al_Bayozid_CV.pdf" download>Download CV</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <figure class="portrait-shell">
+            <img src="assets/profile.jpg" alt="Abdullah Al Bayozid" />
+            <figcaption>Dhaka, Bangladesh</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container two-column">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About me</p>
+          <h2>Research in medical imaging, supported by practical software development.</h2>
+        </div>
+        <div class="about-copy reveal">
+          <p>I am an Electrical and Computer Engineering graduate from Rajshahi University of Engineering and
+            Technology, currently working as an AI Engineer in MLOps and model evaluation. My research spans explainable
+            self-supervised learning, medical image analysis, vision transformers, and reliable AI evaluation.</p>
+          <p>Alongside research, I develop Unity games and interactive systems. This combination lets me move
+            comfortably between experimentation, software implementation, visual design, and deployment.</p>
+          <div class="interest-list" id="interestList"></div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="education">
+      <div class="container education-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Education</p>
+          <h2>BSc in Electrical and Computer Engineering.</h2>
+        </div>
+        <article class="education-card reveal">
+          <div class="education-topline">
+            <span>Graduated July 2025</span>
+            <span>Rajshahi, Bangladesh</span>
+          </div>
+          <h3>Rajshahi University of Engineering and Technology</h3>
+          <p class="degree">BSc in Electrical and Computer Engineering</p>
+          <dl class="education-details">
+            <div>
+              <dt>CGPA</dt>
+              <dd>3.73 / 4.00</dd>
+            </div>
+            <div>
+              <dt>WES evaluated CGPA</dt>
+              <dd>3.80 / 4.00</dd>
+            </div>
+          </dl>
+        </article>
+      </div>
+    </section>
+    <section class="section alt" id="research">
+      <div class="container">
+        <div class="section-heading split reveal">
+          <div>
+            <p class="eyebrow">Research & publications</p>
+            <h2>Explainable learning methods for medical image analysis.</h2>
+          </div>
+          <p>Peer-reviewed and ongoing work in fetal MRI analysis, kidney disease detection, and medical image
+            classification.</p>
+        </div>
+        <div class="filter-row reveal" id="publicationFilters" aria-label="Publication filters"></div>
+        <div class="card-grid publication-grid" id="publicationGrid"></div>
+
+        <article class="thesis-card reveal">
+          <div>
+            <p class="card-kicker">Undergraduate thesis</p>
+            <h3>An Explainable Self-Supervised Learning Method for Kidney Disease Detection in CT Imaging with Vision
+              Transformer</h3>
+            <p>Explainable deep learning and self-supervised representation learning for kidney disease detection from
+              CT images.</p>
+          </div>
+          <a class="button secondary small" href="#contact">Request details</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading split reveal">
+          <div>
+            <p class="eyebrow">Selected projects</p>
+            <h2>Selected Unity, robotics, and software projects.</h2>
+          </div>
+          <p>Projects are documented with implementation details, technologies, and available source code or
+            demonstrations.</p>
+        </div>
+        <div class="filter-row reveal" id="projectFilters" aria-label="Project filters"></div>
+        <div class="card-grid project-grid" id="projectGrid"></div>
+      </div>
+    </section>
+
+    <section class="section alt" id="experience">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Experience</p>
+          <h2>AI model evaluation, research data, and software engineering experience.</h2>
+        </div>
+        <div class="timeline" id="experienceTimeline"></div>
+      </div>
+    </section>
+
+
+
+    <section class="section alt" id="achievements">
+      <div class="container">
+        <div class="section-heading split reveal">
+          <div>
+            <p class="eyebrow">Awards & certificates</p>
+            <h2>Academic recognition and competitive programming.</h2>
+          </div>
+          <p>Highlights include a multi-year UGC technical scholarship and national-level programming achievements.</p>
+        </div>
+        <div class="achievement-grid" id="achievementGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Technical toolkit</p>
+          <h2>Tools used across research, software, and Unity development.</h2>
+        </div>
+        <div class="skill-grid" id="skillGrid"></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-card reveal">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>For PhD supervision, research collaboration, or technical work.</h2>
+          <p>I am based in Dhaka, Bangladesh and open to research opportunities internationally.</p>
+          <div class="contact-email-list" aria-label="Email addresses">
+            <a href="mailto:aab.reshan@gmail.com"><span class="contact-email-label">Personal</span>
+              aab.reshan@gmail.com</a>
+            <a href="mailto:1910010@student.ruet.ac.bd"><span class="contact-email-label">Academic</span>
+              1910010@student.ruet.ac.bd</a>
+          </div>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:aab.reshan@gmail.com">Personal email</a>
+          <a class="button secondary" href="mailto:1910010@student.ruet.ac.bd">RUET email</a>
+          <a class="button secondary" href="https://github.com/re13shan" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="button secondary" href="assets/Abdullah_Al_Bayozid_CV.pdf" target="_blank">View CV</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="currentYear"></span> Abdullah Al Bayozid.</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <dialog class="project-dialog" id="projectDialog">
+    <button class="dialog-close" id="dialogClose" type="button" aria-label="Close project details">×</button>
+    <div id="dialogContent"></div>
+  </dialog>
+</body>
+
+</html>
